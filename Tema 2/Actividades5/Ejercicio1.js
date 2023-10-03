@@ -4,7 +4,7 @@ let salario = parseFloat(prompt("Introduce tu salario"));
 let edad = parseInt(prompt("Introduce tu edad"));
 let sumsal
 let total
-if(salario > 2000)
+if(salario >= 2000)
 {
     total = salario;
 }
@@ -39,4 +39,4 @@ else
     }
 }
 
-alert(nombre + " " +apellidos + " " + edad + " " + total);
+alert(nombre + " " +apellidos + ", edad:" + edad + " total:" + total);
